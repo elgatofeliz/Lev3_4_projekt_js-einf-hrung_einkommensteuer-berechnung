@@ -17,7 +17,7 @@
         <section>
             <label for="year">Jahr</label>
             <select id="year">
-                <option value=""></option>
+                <option value="">-Jahr-</option>
                 <option value="2019">2019</option>
                 <option value="2020">2020</option>
                 <option value="2021">2021</option>
@@ -32,18 +32,18 @@
             </select>
         </section>
         <section>
-            <input type="radio" name="veranlagung" id="single" default>
+            <input type="radio" name="veranlagung" id="single">
             <label for="single">Ein Mensch</label>
             <input type="radio" name="veranlagung" id="dual">
             <label for="dual">Zwei Menschen</label>
         </section>
         <section>
-            <input type="number" name="" id="income">
+            <input type="number" id="income">
             <label for="income">Einkommen in Euro</label>
         </section>
         <section id="btn">
             <button onclick="check()">Go for it!</button>
-            <h2 id="nope"></h2>
+            <p id="nope"></p>
         </section>
         <section>
             <h2>Einkommensteuer</h2>
