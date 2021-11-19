@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lev3_4_projekt_js-einführung_einkommensteuer-berechnung</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Einkommensteuerrechner</h1>
+    </header>
+    <main>
+        <section>
+            <label for="year">Jahr</label>
+            <select id="year">
+                <option value=""></option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+            </select>
+        </section>
+        <section>
+            <label for="kirche">Kirchensteuer</label>
+            <select id="kirche">
+                <option value="0">-keine-</option>
+                <option value="8">8% (Bayern, BaWü)</option>
+                <option value="9">9% (übrige)</option>
+            </select>
+        </section>
+        <section>
+            <input type="radio" name="veranlagung" id="single" default>
+            <label for="single">Ein Mensch</label>
+            <input type="radio" name="veranlagung" id="dual">
+            <label for="dual">Zwei Menschen</label>
+        </section>
+        <section>
+            <input type="number" name="" id="income">
+            <label for="income">Einkommen in Euro</label>
+        </section>
+        <section id="btn">
+            <button onclick="check()">Go for it!</button>
+            <h2 id="nope"></h2>
+        </section>
+        <section>
+            <h2>Einkommensteuer</h2>
+            <p id="ergebnis">---</p>
+            <h2>Kirchensteuer</h2>
+            <p id="ergebnisKirche">---</p>
+            <h2>Gesamtbetrag</h2>
+            <p id="gesamt">---</p>
+        </section>
+    </main>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

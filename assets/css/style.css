@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 40%;
+    border-radius: 25px;
+    margin: 1%;
+}
+
+header{
+    background-color: slateblue;
+    border: 20px solid #2e2e2e;
+    padding: 4vh;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
+main{
+    background-color: #2e2e2e;
+    padding:5px 20px 20px 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+section{
+    padding: 1vh;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    background-color: steelblue;
+    border-radius: 10px;
+}
+
+#btn{
+    text-align: center;
+}
+
+button{
+    padding: 1vh 2vw;
+    color: #fff;
+    background-color: #2e2e2e;
+    border: 5px solid black;
+    font-size: 25px;
+    border-radius: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input, select{
+    padding: 2px 0;
+    margin-left: 1vw;
+    border-radius: 5px;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#nope{
+    color: red;
+}
